@@ -1,0 +1,10 @@
+"Model","Avg_MAE","Avg_RMSE","Avg_R2"
+"ENSEMBLE (Val-Weighted)",0.844,1.279,0.9214
+"LSTM",0.858,1.294,0.9198
+"Linear Regression",0.86,1.297,0.919
+"LSTM + Feature Attention",0.868,1.303,0.9185
+"LSTM + Feature + Temporal + Adaptive + Gated Fusion",0.874,1.312,0.9182
+"LSTM + Feature + Temporal + Adaptive",0.896,1.338,0.9153
+"Random Forest",0.896,1.339,0.9127
+"LSTM + Temporal Attention",0.917,1.352,0.9133
+"LSTM + Feature + Temporal Attention",0.934,1.377,0.9083

@@ -1,0 +1,8 @@
+"Target","Best_Model","MAE","RMSE","R2","MAPE_pct"
+"heat_index_c","ENSEMBLE (Val-Weighted)",0.593,0.835,0.9673,4.04
+"pressure_hpa","Linear Regression",0.198,0.266,0.994,0.02
+"relative_humidity_pct","ENSEMBLE (Val-Weighted)",2.756,4.04,0.9168,4.46
+"temperature_c","ENSEMBLE (Val-Weighted)",0.458,0.675,0.97,2.87
+"visibility_km","ENSEMBLE (Val-Weighted)",0.58,1.226,0.829,11.33
+"wind_speed_ms","LSTM + Temporal Attention",0.47,0.62,0.8507,50.6
+"wind_speed_ms","ENSEMBLE (Val-Weighted)",0.47,0.619,0.8515,51.19

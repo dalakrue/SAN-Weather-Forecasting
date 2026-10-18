@@ -1,0 +1,55 @@
+"Target","Model","MAE","RMSE","R2","MAPE_pct","Acc_R2_pct","Acc_MAPE_pct"
+"temperature_c","Linear Regression",0.528,0.705,0.9502,4.15,95.02,95.85
+"temperature_c","Random Forest",0.518,0.701,0.9507,4.06,95.07,95.94
+"temperature_c","LSTM",0.986,1.312,0.8275,7.52,82.75,92.48
+"temperature_c","LSTM + Feature Attention",1.294,1.671,0.7201,10.86,72.01,89.14
+"temperature_c","LSTM + Temporal Attention",1.547,1.969,0.6114,12.34,61.14,87.66
+"temperature_c","LSTM + Feature + Temporal Attention",1.74,2.205,0.5126,14.39,51.26,85.61
+"temperature_c","LSTM + Feature + Temporal + Adaptive",1.383,1.825,0.666,10.53,66.6,89.47
+"temperature_c","LSTM + Feature + Temporal + Adaptive + Gated Fusion",1.382,1.819,0.6682,11.23,66.82,88.77
+"temperature_c","ENSEMBLE (Gated+Adaptive)",0.613,0.8,0.9358,4.88,93.58,95.12
+"relative_humidity_pct","Linear Regression",3.515,4.869,0.9139,6.31,91.39,93.69
+"relative_humidity_pct","Random Forest",3.52,4.956,0.9107,6.41,91.07,93.59
+"relative_humidity_pct","LSTM",4.884,6.383,0.8519,9.04,85.19,90.96
+"relative_humidity_pct","LSTM + Feature Attention",5.372,7.155,0.814,10.39,81.4,89.61
+"relative_humidity_pct","LSTM + Temporal Attention",7.846,10.347,0.6109,15.94,61.09,84.06
+"relative_humidity_pct","LSTM + Feature + Temporal Attention",9.249,11.724,0.5006,17.94,50.06,82.06
+"relative_humidity_pct","LSTM + Feature + Temporal + Adaptive",8.768,11.128,0.55,16.79,55,83.21
+"relative_humidity_pct","LSTM + Feature + Temporal + Adaptive + Gated Fusion",5.792,7.518,0.7946,10.73,79.46,89.27
+"relative_humidity_pct","ENSEMBLE (Gated+Adaptive)",4.016,5.369,0.8953,7.57,89.53,92.43
+"wind_speed_ms","Linear Regression",0.594,0.799,0.8542,59.19,85.42,40.81
+"wind_speed_ms","Random Forest",0.576,0.773,0.8635,63.67,86.35,36.33
+"wind_speed_ms","LSTM",0.643,0.877,0.8243,67.31,82.43,32.69
+"wind_speed_ms","LSTM + Feature Attention",0.755,1.022,0.7614,81.44,76.14,18.56
+"wind_speed_ms","LSTM + Temporal Attention",1.203,1.579,0.43,152.71,43,-52.71
+"wind_speed_ms","LSTM + Feature + Temporal Attention",1.098,1.496,0.4882,128.81,48.82,-28.81
+"wind_speed_ms","LSTM + Feature + Temporal + Adaptive",1.122,1.48,0.4996,150.92,49.96,-50.92
+"wind_speed_ms","LSTM + Feature + Temporal + Adaptive + Gated Fusion",0.707,0.956,0.7912,81.91,79.12,18.09
+"wind_speed_ms","ENSEMBLE (Gated+Adaptive)",0.629,0.848,0.8357,69.32,83.57,30.68
+"pressure_hpa","Linear Regression",0.225,0.298,0.9941,0.02,99.41,99.98
+"pressure_hpa","Random Forest",0.253,0.333,0.9926,0.02,99.26,99.98
+"pressure_hpa","LSTM",1.401,1.713,0.805,0.14,80.5,99.86
+"pressure_hpa","LSTM + Feature Attention",1.002,1.28,0.8911,0.1,89.11,99.9
+"pressure_hpa","LSTM + Temporal Attention",1.494,1.906,0.7586,0.15,75.86,99.85
+"pressure_hpa","LSTM + Feature + Temporal Attention",1.828,2.41,0.614,0.18,61.4,99.82
+"pressure_hpa","LSTM + Feature + Temporal + Adaptive",1.752,2.278,0.655,0.17,65.5,99.83
+"pressure_hpa","LSTM + Feature + Temporal + Adaptive + Gated Fusion",1.38,1.791,0.7868,0.14,78.68,99.86
+"pressure_hpa","ENSEMBLE (Gated+Adaptive)",0.426,0.548,0.98,0.04,98,99.96
+"visibility_km","Linear Regression",0.666,1.395,0.7145,7.02,71.45,92.98
+"visibility_km","Random Forest",0.621,1.402,0.7117,6.99,71.17,93.01
+"visibility_km","LSTM",1.291,1.933,0.4519,12.84,45.19,87.16
+"visibility_km","LSTM + Feature Attention",1.222,1.877,0.4832,12.37,48.32,87.63
+"visibility_km","LSTM + Temporal Attention",1.378,2.41,0.1476,16.53,14.76,83.47
+"visibility_km","LSTM + Feature + Temporal Attention",2.026,2.636,-0.0193,20.85,-1.93,79.15
+"visibility_km","LSTM + Feature + Temporal + Adaptive",1.611,2.485,0.0936,17.66,9.36,82.34
+"visibility_km","LSTM + Feature + Temporal + Adaptive + Gated Fusion",1.085,1.748,0.5519,11.12,55.19,88.88
+"visibility_km","ENSEMBLE (Gated+Adaptive)",0.785,1.46,0.6874,8.72,68.74,91.28
+"heat_index_c","Linear Regression",0.632,0.827,0.9318,6.25,93.18,93.75
+"heat_index_c","Random Forest",0.693,0.926,0.9143,6.95,91.43,93.05
+"heat_index_c","LSTM",1.204,1.587,0.7484,12.08,74.84,87.92
+"heat_index_c","LSTM + Feature Attention",1.279,1.68,0.718,13.86,71.8,86.14
+"heat_index_c","LSTM + Temporal Attention",1.732,2.234,0.5017,18.64,50.17,81.36
+"heat_index_c","LSTM + Feature + Temporal Attention",1.712,2.241,0.4986,18.52,49.86,81.48
+"heat_index_c","LSTM + Feature + Temporal + Adaptive",1.691,2.168,0.5308,18.58,53.08,81.42
+"heat_index_c","LSTM + Feature + Temporal + Adaptive + Gated Fusion",1.376,1.804,0.6752,14.37,67.52,85.63
+"heat_index_c","ENSEMBLE (Gated+Adaptive)",0.715,0.939,0.9119,7.46,91.19,92.54

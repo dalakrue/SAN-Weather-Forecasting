@@ -1,0 +1,55 @@
+Target,Model,MAE,RMSE,R2,MAPE_pct,R2_x100,MAPE_derived_indicator,MAE_derived_indicator
+temperature_c,Linear Regression,0.476,0.712,0.9668,3.0,96.68,97.0,97.28
+temperature_c,Random Forest,0.468,0.686,0.9691,2.94,96.91,97.06,97.32
+temperature_c,LSTM,0.481,0.713,0.9667,3.02,96.67,96.98,97.25
+temperature_c,LSTM + Feature Attention,0.478,0.709,0.967,3.0,96.7,97.0,97.27
+temperature_c,LSTM + Temporal Attention,0.488,0.705,0.9673,3.07,96.73,96.93,97.21
+temperature_c,LSTM + Feature + Temporal Attention,0.509,0.733,0.9647,3.25,96.47,96.75,97.09
+temperature_c,LSTM + Feature + Temporal + Adaptive,0.496,0.715,0.9664,3.13,96.64,96.87,97.16
+temperature_c,LSTM + Feature + Temporal + Adaptive + Gated Fusion,0.486,0.713,0.9667,3.05,96.67,96.95,97.22
+temperature_c,ENSEMBLE (Val-Weighted),0.458,0.675,0.97,2.87,97.0,97.13,97.38
+relative_humidity_pct,Linear Regression,2.81,4.098,0.9144,4.51,91.44,95.49,96.17
+relative_humidity_pct,Random Forest,2.838,4.188,0.9106,4.63,91.06,95.37,96.13
+relative_humidity_pct,LSTM,2.761,4.039,0.9169,4.49,91.69,95.51,96.23
+relative_humidity_pct,LSTM + Feature Attention,2.79,4.069,0.9157,4.52,91.57,95.48,96.19
+relative_humidity_pct,LSTM + Temporal Attention,2.826,4.114,0.9138,4.58,91.38,95.42,96.14
+relative_humidity_pct,LSTM + Feature + Temporal Attention,2.804,4.097,0.9145,4.49,91.45,95.51,96.17
+relative_humidity_pct,LSTM + Feature + Temporal + Adaptive,2.789,4.08,0.9152,4.54,91.52,95.46,96.19
+relative_humidity_pct,LSTM + Feature + Temporal + Adaptive + Gated Fusion,2.825,4.112,0.9138,4.53,91.38,95.47,96.14
+relative_humidity_pct,ENSEMBLE (Val-Weighted),2.756,4.04,0.9168,4.46,91.68,95.54,96.24
+wind_speed_ms,Linear Regression,0.482,0.634,0.8443,51.86,84.43,48.14,78.5
+wind_speed_ms,Random Forest,0.499,0.65,0.8363,58.58,83.63,41.42,77.73
+wind_speed_ms,LSTM,0.473,0.621,0.8502,52.1,85.02,47.9,78.91
+wind_speed_ms,LSTM + Feature Attention,0.474,0.623,0.8494,51.08,84.94,48.92,78.87
+wind_speed_ms,LSTM + Temporal Attention,0.47,0.62,0.8507,50.6,85.07,49.4,79.02
+wind_speed_ms,LSTM + Feature + Temporal Attention,0.481,0.63,0.8463,55.34,84.63,44.66,78.54
+wind_speed_ms,LSTM + Feature + Temporal + Adaptive,0.475,0.621,0.8504,52.41,85.04,47.59,78.83
+wind_speed_ms,LSTM + Feature + Temporal + Adaptive + Gated Fusion,0.476,0.627,0.8476,50.26,84.76,49.74,78.79
+wind_speed_ms,ENSEMBLE (Val-Weighted),0.47,0.619,0.8515,51.19,85.15,48.81,79.01
+pressure_hpa,Linear Regression,0.198,0.266,0.994,0.02,99.4,99.98,99.98
+pressure_hpa,Random Forest,0.218,0.29,0.9929,0.02,99.29,99.98,99.98
+pressure_hpa,LSTM,0.224,0.295,0.9927,0.02,99.27,99.98,99.98
+pressure_hpa,LSTM + Feature Attention,0.232,0.305,0.9922,0.02,99.22,99.98,99.98
+pressure_hpa,LSTM + Temporal Attention,0.341,0.449,0.9831,0.03,98.31,99.97,99.97
+pressure_hpa,LSTM + Feature + Temporal Attention,0.425,0.556,0.9741,0.04,97.41,99.96,99.96
+pressure_hpa,LSTM + Feature + Temporal + Adaptive,0.344,0.452,0.9829,0.03,98.29,99.97,99.97
+pressure_hpa,LSTM + Feature + Temporal + Adaptive + Gated Fusion,0.232,0.306,0.9921,0.02,99.21,99.98,99.98
+pressure_hpa,ENSEMBLE (Val-Weighted),0.209,0.278,0.9935,0.02,99.35,99.98,99.98
+visibility_km,Linear Regression,0.598,1.229,0.8281,11.2,82.81,88.8,96.01
+visibility_km,Random Forest,0.682,1.302,0.8068,10.94,80.68,89.06,95.45
+visibility_km,LSTM,0.589,1.23,0.8278,11.91,82.78,88.09,96.07
+visibility_km,LSTM + Feature Attention,0.619,1.253,0.8213,11.36,82.13,88.64,95.87
+visibility_km,LSTM + Temporal Attention,0.711,1.312,0.804,12.33,80.4,87.67,95.25
+visibility_km,LSTM + Feature + Temporal Attention,0.747,1.369,0.7866,13.63,78.66,86.37,95.01
+visibility_km,LSTM + Feature + Temporal + Adaptive,0.631,1.279,0.8137,11.59,81.37,88.41,95.79
+visibility_km,LSTM + Feature + Temporal + Adaptive + Gated Fusion,0.603,1.242,0.8244,11.48,82.44,88.52,95.98
+visibility_km,ENSEMBLE (Val-Weighted),0.58,1.226,0.829,11.33,82.9,88.67,96.13
+heat_index_c,Linear Regression,0.596,0.845,0.9665,4.08,96.65,95.92,96.45
+heat_index_c,Random Forest,0.668,0.916,0.9606,4.49,96.06,95.51,96.03
+heat_index_c,LSTM,0.617,0.869,0.9646,4.25,96.46,95.75,96.33
+heat_index_c,LSTM + Feature Attention,0.613,0.859,0.9654,4.16,96.54,95.84,96.35
+heat_index_c,LSTM + Temporal Attention,0.667,0.911,0.961,4.64,96.1,95.36,96.03
+heat_index_c,LSTM + Feature + Temporal Attention,0.637,0.879,0.9638,4.3,96.38,95.7,96.21
+heat_index_c,LSTM + Feature + Temporal + Adaptive,0.641,0.884,0.9633,4.4,96.33,95.6,96.19
+heat_index_c,LSTM + Feature + Temporal + Adaptive + Gated Fusion,0.621,0.871,0.9644,4.3,96.44,95.7,96.3
+heat_index_c,ENSEMBLE (Val-Weighted),0.593,0.835,0.9673,4.04,96.73,95.96,96.47

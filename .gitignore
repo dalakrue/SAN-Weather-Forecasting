@@ -1,0 +1,25 @@
+# Large data + generated artifacts — regenerate with the pipeline, do not commit.
+*.csv
+!results/*.csv
+*.npy
+*.pkl
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

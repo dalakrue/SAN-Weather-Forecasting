@@ -1,0 +1,7 @@
+Target,Model,MAE,RMSE,R2,MAPE_pct,R2_x100,MAPE_derived_indicator,MAE_derived_indicator
+heat_index_c,ENSEMBLE (Val-Weighted),0.593,0.835,0.9673,4.04,96.73,95.96,96.47
+pressure_hpa,Linear Regression,0.198,0.266,0.994,0.02,99.4,99.98,99.98
+relative_humidity_pct,ENSEMBLE (Val-Weighted),2.756,4.04,0.9168,4.46,91.68,95.54,96.24
+temperature_c,ENSEMBLE (Val-Weighted),0.458,0.675,0.97,2.87,97.0,97.13,97.38
+visibility_km,ENSEMBLE (Val-Weighted),0.58,1.226,0.829,11.33,82.9,88.67,96.13
+wind_speed_ms,LSTM + Temporal Attention,0.47,0.62,0.8507,50.6,85.07,49.4,79.02
